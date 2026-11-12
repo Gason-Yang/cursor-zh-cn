@@ -1,0 +1,412 @@
+File	文件
+Get Started	开始使用
+Mine	我的
+Explore	探索
+Showing	当前显示
+Showing 	当前显示 
+Templates	模板
+Filter agents	筛选智能体
+More	更多
+Runs	运行记录
+No Runs Yet	暂无运行记录
+Evals	评估
+What model new agents use by default	新智能体默认使用的模型
+Allow agent to switch to modes like Plan or Debug without asking. When off, Cursor asks first, but skips if unanswered within 15 seconds.	允许智能体直接切换到计划或调试等模式。关闭后 Cursor 会先询问，如 15 秒内未得到答复则跳过。
+Choose how Agents run tools like command execution, MCP, and file writes.	选择智能体执行命令、调用 MCP 和写入文件等工具操作时的运行方式。
+Enable Remote Control for this computer	为此电脑启用远程控制
+Allow agents on this computer to be controlled from your other devices	允许从你的其他设备控制此电脑上的智能体
+Register eligible computers when you sign in	登录时注册符合条件的电脑
+Change how this computer appears on other devices	更改此电脑在其他设备上显示的名称
+Disable Remote Control on all of my computers	在我的所有电脑上停用远程控制
+Unregisters every computer on your account; you can register any of them again later	注销此账户下的所有电脑；之后可以重新注册
+Enable local self-hosted workers	启用本地自托管工作进程
+Allow cloud agents to run in your local environment.	允许云端智能体在你的本地环境中运行。
+Skip approval dialog; Agent may run web searches automatically	跳过审批对话框，允许智能体自动搜索网页
+Use /create-rule to control agent behavior through system-level instructions	使用 /create-rule 创建系统级指令，控制智能体行为
+Use @browser to inspect page elements, view console logs, and analyze network traffic	使用 @browser 检查网页元素、查看控制台日志和分析网络请求
+Use /create-subagent to set up specialized agents that Cursor can use to parallelize work	使用 /create-subagent 创建专业子智能体，让 Cursor 并行处理工作
+Tell Cursor to use subagents to break down tasks, do work in parallel, and preserve context	让 Cursor 使用子智能体拆分任务、并行工作并保留上下文
+Use /create-skill to customize Cursor for your workflows	使用 /create-skill 为你的工作流程定制 Cursor
+Agent skills help you customize Cursor for your workflows - use /create-skill to get started	智能体技能可以定制工作流程，输入 /create-skill 开始
+Debug Mode reproduces and solves your most difficult bugs - hit shift+tab twice to get started	调试模式可复现并解决棘手问题，按两次 Shift+Tab 开始
+Use /debug to solve bugs that are hard to reproduce or understand	使用 /debug 解决难以复现或理解的问题
+Use /ask to research your codebase before starting code changes	在修改代码前，使用 /ask 研究代码库
+Configure MCPs in your Cursor Settings to give agents access to tools and data	在 Cursor 设置中配置 MCP，让智能体访问工具和数据
+Use cloud agents for better parallelization and durable execution at cursor.com/agents	访问 cursor.com/agents，使用云端智能体实现更好的并行处理和持续执行
+Use /cloud or /local to move agent sessions between runtimes	使用 /cloud 或 /local 在云端和本地运行环境之间迁移智能体会话
+Use /cloud to run agents remotely for better parallelization and durable execution	使用 /cloud 远程运行智能体，实现更好的并行处理和持续执行
+Use /in-cloud to start a subagent in its own cloud VM, keeping your local workspace free	使用 /in-cloud 在独立的云端虚拟机中启动子智能体，释放本地工作区
+Set up automations to automate tasks and save time at cursor.com/automations	访问 cursor.com/automations 配置自动化任务，节省时间
+Use automations to save time on repetitive tasks with always-on agents	使用持续运行的自动化智能体处理重复任务，节省时间
+Use /loop to run a prompt on a schedule	使用 /loop 定时运行提示词任务
+Use /automate to create Cursor Automations without leaving your agent chat	在对话中使用 /automate 直接创建 Cursor 自动化任务
+Use /best-of-N to compare how different models perform on the same task	使用 /best-of-N 比较不同模型在同一任务中的表现
+Use /model to pick the best model for your task and select Grok for a great balance of cost vs. capability	使用 /model 选择适合任务的模型；Grok 可兼顾成本与能力
+Hooks let you control and extend the agent loop - use /create-hook to get started	钩子可以控制和扩展智能体执行流程，使用 /create-hook 开始
+Use /create-hook to control and extend the agent loop with custom scripts	使用 /create-hook，通过自定义脚本控制和扩展智能体执行流程
+Use /canvas to get interactive visualizations like dashboards from Cursor	使用 /canvas 让 Cursor 创建仪表盘等交互式可视化内容
+Use /shell to run commands in the terminal	使用 /shell 在终端中运行命令
+Use /worktree to run the agent task in a separate git worktree	使用 /worktree 在独立的 Git 工作树中运行智能体任务
+Use /simplify to have Cursor review all changed files for code quality and efficiency	使用 /simplify 让 Cursor 检查所有改动文件的代码质量和效率
+Use /review to have Cursor find bugs, regressions, security issues, and missing tests	使用 /review 让 Cursor 查找错误、功能回退、安全问题和缺失的测试
+Use /babysit to triage PR comments, fix CI failures, and clear conflicts	使用 /babysit 处理拉取请求评论、修复持续集成失败并解决冲突
+After long sessions, use /split-to-prs to turn your work into small, reviewable PRs	长时间工作后，使用 /split-to-prs 将更改拆分为小而易审查的拉取请求
+Use /add-plugin to install a plugin from the Cursor Marketplace	使用 /add-plugin 从 Cursor 扩展市场安装插件
+Plugins help you customize Cursor for your workflows - use /add-plugin to get started	插件可为你的工作流程定制 Cursor，使用 /add-plugin 开始
+The Agents Window lets you parallelize agents across repos - hit ctrl+shift+P to start	智能体窗口可跨仓库并行运行智能体，按 Ctrl+Shift+P 开始
+Create a Project to give agents a shared assignment and track their progress in one place	创建项目，为智能体分配共同任务并集中跟踪进度
+Drag and drop agent chats to split your view into tiled panes	拖放智能体对话，将视图拆分为平铺面板
+Ask Cursor to find a prior conversation, or summarize across conversations	让 Cursor 查找历史对话，或汇总多个对话的内容
+Voice mode lets you dictate better prompts for your agents	语音模式可让你通过口述为智能体提供更完整的提示词
+Goals keep agents working across turns until the job is done - use /goal to get started	目标功能让智能体跨轮次持续工作直至任务完成，使用 /goal 开始
+Messages sent while Cursor is working can steer it mid-run without interrupting - turn it on under New Messages in Agents settings	Cursor 工作时发送消息即可不中断地引导任务，可在智能体设置的“新消息”中启用
+Cloud Agents require data storage to function.	云端智能体需要存储数据才能运行。
+These domains must be accessible for Cursor to function. Add them to your firewall or proxy allowlist.	Cursor 需要能够访问这些域名。请将它们添加到防火墙或代理的允许列表。
+Cursor is turned off in System Settings > Menu Bar > Allow in the Menu Bar	Cursor 已在“系统设置 > 菜单栏 > 允许在菜单栏中显示”中被关闭
+Path to .env file to load environment variables from (supports variable resolution like ${workspaceFolder}/.env)	用于加载环境变量的 .env 文件路径（支持 ${workspaceFolder}/.env 等变量）
+Open a new search editor. Arguments passed can include variables like ${relativeFileDirname}.	打开新的搜索编辑器。传入参数可包含 ${relativeFileDirname} 等变量。
+Team	团队
+More actions	更多操作
+More options	更多选项
+Zoom in	放大
+Zoom out	缩小
+Reset zoom	重置缩放
+Copy link	复制链接
+Loading Canvas	正在加载画布
+Create PR	创建拉取请求
+Model selection	选择模型
+Copy Request ID	复制请求 ID
+Loading chat	正在加载对话
+API Key	API 密钥
+Base URL	基础 URL
+MCPs	MCP 服务
+Skills	技能
+Subagents	子智能体
+Rules	规则
+Run History	运行记录
+Auto-Review	自动审查
+Steer	引导当前任务
+Send Immediately	立即发送
+Last Used	上次使用
+Cursor Default	Cursor 默认
+Default Model	默认模型
+Third-Party Imports	第三方配置导入
+Remote Control	远程控制
+Computer Use	电脑操作
+Computer Name	电脑名称
+Self-Hosted Workers	自托管工作进程
+Allowlist Options	允许列表选项
+File-Deletion Protection	文件删除保护
+External-File Protection	工作区外文件保护
+Agents Window Type	智能体窗口类型
+Window Layout	窗口布局
+On-Demand Usage	按需用量
+You can also manage Privacy Mode in the	你也可以在此管理隐私模式：
+Unify dashboard	Unify 控制台
+Submit with Ctrl + Enter	使用 Ctrl+Enter 发送
+Ctrl+Enter submits chat, Enter inserts a newline, and primary actions move to Ctrl+Alt+Enter	Ctrl+Enter 发送对话，Enter 换行，主要操作使用 Ctrl+Alt+Enter
+Steer a running agent without stopping it - set New Messages to Send Immediately in your Agents settings	无需停止智能体即可引导任务：在智能体设置中将“新消息”设为“立即发送”
+Use /review for an agentic code review of your changes	使用 /review 让智能体审查你的代码更改
+Set up Environment	配置环境
+Set Up Cloud Agents	配置云端智能体
+Help Agents Ship Better Code	帮助智能体交付更好的代码
+Give Agents a Computer	为智能体提供运行环境
+Give cloud agents a machine to install, run, test, and demo your code.	为云端智能体提供可安装、运行、测试和演示代码的环境。
+Cloud agents ship better code and run faster when you set up their development environment.	配置开发环境后，云端智能体能更快地运行并交付更好的代码。
+Edit	编辑
+View	视图
+Help	帮助
+Search	搜索
+Settings	设置
+General	常规
+Appearance	外观
+Agents	智能体
+Agent	智能体
+Models	模型
+Voice	语音
+Beta	测试功能
+Docs	文档
+Back	返回
+Open	打开
+Close	关闭
+Cancel	取消
+Save	保存
+Delete	删除
+Remove	移除
+Add	添加
+Edit	编辑
+Done	完成
+Apply	应用
+Default	默认
+Configure	配置
+Dismiss	关闭提示
+Account	账户
+Startup	启动
+Notifications	通知
+Privacy	隐私
+Tips	使用提示
+Preferences	偏好设置
+Layout	布局
+Theme	主题
+Colors	颜色
+Hue	色调
+Intensity	强度
+Typography	字体排印
+Motion	动画
+Fun	趣味
+Language	语言
+Speed	语速
+Conversation	对话
+Attribution	署名
+Branches	分支
+Codebase	代码库
+Network	网络
+Plugins	插件
+Hooks	钩子
+Developer	开发者
+Worktrees	工作树
+Projects	项目
+Repositories	仓库
+Customize	自定义
+Automations	自动化
+Pin	置顶
+Unpin	取消置顶
+Archive	归档
+Unarchive	取消归档
+Completed	已完成
+Running	运行中
+Loading	正在加载
+Enabled	已启用
+Disabled	已禁用
+Always	始终
+Never	从不
+Auto	自动
+New Chat	新建对话
+New Agent	新建智能体
+New Project	新建项目
+New Automation	新建自动化
+Hide Sidebar	隐藏侧栏
+Show Sidebar	显示侧栏
+Go Back	后退
+Go Forward	前进
+Customize Sidebar	自定义侧栏
+Open Workspace	打开工作区
+Close Settings	关闭设置
+Search Settings	搜索设置
+Resize sidebar	调整侧栏宽度
+Show Apps	显示应用
+Hide Apps	隐藏应用
+This PC	本机
+This Mac	本机
+This Computer	本机
+Add agents, context, tools	添加智能体、上下文和工具
+Start voice input	开始语音输入
+Start voice chat	开始语音对话
+Plan New Idea	规划新想法
+Multitask	多任务
+Build from a design	根据设计构建
+Turn a frame into working UI in this repo	将设计稿转化为此仓库中的可用界面
+Deploy my prototype	部署我的原型
+Put it on a live link anyone can open	发布为任何人都能访问的在线链接
+Start with a plan	从制定计划开始
+Align on implementation before writing code	先明确实现方案，再编写代码
+Debug an issue	排查问题
+Find root causes and fix tricky bugs	查明根因并修复棘手的问题
+Dismiss recommendation	关闭此推荐
+Hide tips	隐藏提示
+Plan, Build, / for skills, @ for context	规划、构建；输入 / 使用技能，输入 @ 添加上下文
+Ask Mode uses read-only agents to research your codebase - hit shift+tab to get started	提问模式使用只读智能体研究代码库，按 Shift+Tab 开始
+Cursor can respond with interactive visualizations alongside text - use /canvas to get started	Cursor 可在文字回复中加入交互式可视化，输入 /canvas 开始
+Use /goal to set an objective that Cursor keeps pursuing until it is complete	使用 /goal 设置目标，Cursor 将持续执行直至完成
+Cursor Settings	Cursor 设置
+VS Code Settings	VS Code 设置
+Open VS Code Settings	打开 VS Code 设置
+Plan & Usage	套餐与用量
+Cloud Agents	云端智能体
+Source Control	源代码管理
+Browser & Network	浏览器与网络
+Code Intelligence	代码智能
+Rules, Skills, Subagents	规则、技能与子智能体
+Tools & MCPs	工具与 MCP
+Log Out	退出登录
+Sign In	登录
+Sign in to get started with Cursor's AI features	登录后即可使用 Cursor 的 AI 功能
+Cursor Account	Cursor 账户
+Manage your account and billing	管理账户与账单
+Editor Settings	编辑器设置
+Configure font, formatting, minimap and more	配置字体、格式化、缩略图等选项
+Keyboard Shortcuts	键盘快捷方式
+Configure keyboard shortcuts	配置键盘快捷方式
+Import Settings from VS Code	从 VS Code 导入设置
+Import settings, extensions, and keybindings from VS Code	从 VS Code 导入设置、扩展和快捷键
+See warnings and tips that you’ve hidden	查看已隐藏的警告和提示
+Conversation Density	对话信息密度
+Choose how much detail Agent tool calls show in the conversation	选择对话中智能体工具调用的详细程度
+Status Bar	状态栏
+Review Control Location	审查控件位置
+Auto-Hide Editor When Empty	编辑器为空时自动隐藏
+Open Chat as Editor Tabs	在编辑器标签页中打开对话
+Show rotating tips on the empty screen	在空白页面轮流显示使用提示
+Window Restoration	窗口恢复
+Controls which windows Cursor restores on startup	控制 Cursor 启动时恢复哪些窗口
+Continue Interrupted Agents	继续中断的智能体任务
+Automatically resume working on agents and their subagents after a reload or restart	重新加载或重启后自动恢复智能体及其子智能体的工作
+System Notifications	系统通知
+Show system notifications when Agent completes or needs attention	智能体完成任务或需要处理时显示系统通知
+Warning Notifications	警告通知
+Show notifications for less urgent issues	为不太紧急的问题显示通知
+Menu Bar Icon	菜单栏图标
+Show Cursor in the menu bar	在菜单栏中显示 Cursor
+System Tray Icon	系统托盘图标
+Show Cursor in system tray	在系统托盘中显示 Cursor
+Show Cursor in the system tray	在系统托盘中显示 Cursor
+Completion Sound	完成提示音
+Play a sound when Agent finishes responding	智能体完成回复时播放提示音
+Play a sound when agents finish or need attention	智能体完成任务或需要处理时播放提示音
+Verify Extension Signatures	验证扩展签名
+Follow System Color Scheme	跟随系统配色
+Match the active theme to your OS dark/light setting	根据操作系统的深色或浅色设置切换主题
+Choose which theme to use	选择使用的主题
+Light Theme	浅色主题
+Choose the theme used when your system is in light mode	选择系统处于浅色模式时使用的主题
+Dark Theme	深色主题
+Choose the theme used when your system is in dark mode	选择系统处于深色模式时使用的主题
+Follow System High Contrast	跟随系统高对比度模式
+Switch to a high contrast theme when your OS is in a high contrast mode	系统使用高对比度模式时切换至高对比度主题
+High Contrast Light Theme	高对比度浅色主题
+Choose the theme used when your system is in light high contrast mode	选择系统处于高对比度浅色模式时使用的主题
+High Contrast Dark Theme	高对比度深色主题
+Choose the theme used when your system is in dark high contrast mode	选择系统处于高对比度深色模式时使用的主题
+Manage Themes	管理主题
+Create your own themes, tweak the vibe, and import your favorites	创建自定义主题、调整风格或导入喜爱的主题
+Choose a tint color	选择色调颜色
+Control how strongly the tint is applied	控制色调的应用强度
+Reduce Transparency	减少透明效果
+Replace translucent surfaces with opaque backgrounds	使用不透明背景替代半透明界面
+Agent Conversations	智能体对话
+Tool Call Density	工具调用信息密度
+Adjust how much detail is shown for tool calls	调整工具调用信息的详细程度
+UI Font Size	界面字号
+Font size for the Cursor user interface	Cursor 用户界面的字体大小
+Code Font Size	代码字号
+Font size for code editors and diffs	代码编辑器和差异视图的字体大小
+UI Font Family	界面字体
+Override the Cursor user interface typeface	自定义 Cursor 用户界面字体
+Code Font Family	代码字体
+Override the font for code editors and diffs	自定义代码编辑器和差异视图字体
+Font Smoothing	字体平滑
+Use native macOS font anti-aliasing	使用 macOS 原生字体抗锯齿
+Reduce Motion	减少动画
+Minimize interface animations	尽量减少界面动画
+Give the Agent a Confetti Cannon	允许智能体撒彩纸庆祝
+Allow the agent to celebrate with a shower of confetti	允许智能体通过彩纸动画庆祝
+Hide Email Address	隐藏邮箱地址
+Partially mask your email address in the Cursor user interface	在 Cursor 界面中部分遮蔽邮箱地址
+Monthly Limit	每月用量上限
+Set a fixed amount or make on-demand usage unlimited	设置固定额度，或取消按需用量限制
+Context-aware, multi-line suggestions around your cursor based on recent edits	根据最近编辑内容，在光标附近提供理解上下文的多行建议
+Usage Summary	用量摘要
+When to show the usage summary at the bottom of the chat pane	选择何时在对话面板底部显示用量摘要
+Text Size	文字大小
+Adjust the conversation text size	调整对话文字大小
+Default Environment	默认环境
+Where new agents start by default	新智能体默认启动的环境
+Queue Messages	消息排队
+Adjust the default behavior of sending a message while Agent is running	调整智能体运行时发送消息的默认行为
+New Messages	新消息
+What sending a message while Agent is running does	选择智能体运行时发送新消息的行为
+Manually Sent Messages from Queue	从队列手动发送的消息
+What the queued-message Send Now action does	选择队列中“立即发送”操作的行为
+Agent Autocomplete	智能体输入自动补全
+Contextual suggestions while prompting Agent	向智能体输入提示词时提供上下文建议
+Auto-Approve Mode Transitions	自动批准模式切换
+Allow agent to switch to modes without asking. When off, skips if unanswered within 15 seconds.	允许智能体直接切换模式。关闭后，如 15 秒内未得到答复则跳过。
+Voice Submit Keywords	语音发送关键词
+Default voice for voice chats	语音对话的默认声音
+How quickly the voice speaks in voice chats	语音对话中的说话速度
+Language used in voice chats	语音对话使用的语言
+Submit Keywords	发送关键词
+Words that send your prompt while you dictate	听写时说出这些词即可发送提示词
+Context and Tools	上下文与工具
+Web Search Tool	网页搜索工具
+Allow Agent to search the web for relevant information	允许智能体搜索网上的相关信息
+Web Fetch Tool	网页内容获取工具
+Allow Agent to fetch content from URLs	允许智能体从网址获取内容
+Wait for MCP Authentication	等待 MCP 身份验证
+Wait indefinitely; otherwise skip prompts after 30 seconds	持续等待；否则在 30 秒后跳过提示
+Execution and Approvals	执行与审批
+Run Mode	运行模式
+Read Access	读取权限
+Control whether agents can read files outside the workspace without approval.	控制智能体是否可以无需审批读取工作区外的文件。
+Read Allowlist	读取允许列表
+File paths and glob patterns agents can read without approval.	智能体无需审批即可读取的文件路径和通配符模式。
+Terminal and Editing	终端与编辑
+Legacy Terminal Tool	旧版终端工具
+Use legacy terminal tool on unsupported shells	在不受支持的 Shell 中使用旧版终端工具
+Enable LSPs	启用语言服务器
+Enable language server by default to provide code intelligence in workspaces	默认启用语言服务器，为工作区提供代码智能功能
+Enable LSPs for Worktrees	为工作树启用语言服务器
+Enable language server by default to provide code intelligence in agent worktree workspaces	默认启用语言服务器，为智能体工作树提供代码智能功能
+Maximum Local LSP Workspaces	本地语言服务器工作区上限
+Maximum local workspaces that can run language servers at the same time	可以同时运行语言服务器的本地工作区数量上限
+Maximum Remote LSP Workspaces	远程语言服务器工作区上限
+Maximum remote workspaces that can run language servers at the same time	可以同时运行语言服务器的远程工作区数量上限
+Inline Diffs	行内差异
+Show inline diff decorations in the editor	在编辑器中显示行内差异标记
+Auto Format on Agent Finish	智能体完成后自动格式化
+Automatically format files when Agent finishes	智能体完成后自动格式化文件
+Sync Skills for Cloud Agents	同步云端智能体技能
+Cursor syncs your local skills so they can be used with Cloud Agents	同步本地技能，以便云端智能体使用
+Toolbar on Selection	选中文本时显示工具栏
+Show the Add to Chat button	显示“添加到对话”按钮
+Terminal Hint	终端提示
+Show the Open worktree link in Terminal	在终端中显示“打开工作树”链接
+Task Models	任务模型
+Explore Subagent Model	探索子智能体模型
+Choose the model used by Explore subagent for initial research	选择探索子智能体进行初步研究时使用的模型
+Gateway	网关
+Configure the local agent LLM gateway	配置本地智能体的大模型网关
+Pull Requests	拉取请求
+Review Provider	审查提供方
+PR Link Destination	拉取请求链接打开位置
+Open pull request links inside Cursor or the default browser	在 Cursor 内部或默认浏览器中打开拉取请求链接
+Commit Attribution	提交署名
+PR Attribution	拉取请求署名
+Branch Prefix	分支前缀
+Prefix for new Agent branches	新建智能体分支的名称前缀
+Include Third-Party Plugins, Skills, and Other Configs	包含第三方插件、技能及其他配置
+Automatically import agent configs from other tools	自动从其他工具导入智能体配置
+Import Claude Code Conversations	导入 Claude Code 对话
+Sync chats and continue them in Cursor	同步对话并在 Cursor 中继续
+Ignore Files in .cursorignore	通过 .cursorignore 忽略文件
+Files to exclude from indexing in addition to .gitignore	除 .gitignore 外，还需从索引中排除的文件
+Ignore Files	忽略文件
+Hierarchical Cursor Ignore	分层应用 Cursor 忽略规则
+Apply .cursorignore files to subdirectories	将 .cursorignore 文件规则应用于子目录
+Ignore Symlinks in Cursor Ignore Search	Cursor 忽略文件搜索跳过符号链接
+Skip symlinks during discovery	发现文件时跳过符号链接
+HTTP Compatibility Mode	HTTP 兼容模式
+Configure HTTP compatibility for proxies and VPNs	为代理和 VPN 配置 HTTP 兼容模式
+Required Domains	所需域名
+Domains required for Cursor	Cursor 所需的域名
+Network Diagnostics	网络诊断
+Check connectivity to all Cursor services	检查与所有 Cursor 服务的连接
+Update Access	更新渠道
+Dedicated Agent Runtime	独立智能体运行时
+Run Private Inference in a separate local process to isolate it from remote workspace activity. Reload Cursor after changing this setting.	在独立的本地进程中运行私有推理，与远程工作区活动隔离。更改后请重新加载 Cursor。
+Worktree Cleanup	工作树清理
+Cursor periodically removes old worktrees to free disk space	Cursor 定期清理旧工作树以释放磁盘空间
+Max Worktrees	工作树数量上限
+Maximum retained Cursor-managed worktrees	最多保留的 Cursor 管理工作树数量
+Max Total Size (GB)	总大小上限（GB）
+Maximum aggregate worktree size	所有工作树的总大小上限
+Cursor-Managed Worktrees	Cursor 管理的工作树
+Tracing	跟踪
+Local Trace Mode	本地跟踪模式
+Continuous RPC File Recording	持续记录 RPC 文件
+Plugins, MCPs, Skills, and Rules have moved to Customize	插件、MCP、技能和规则已移至“自定义”
+We've introduced a new home for all the ways to customize Cursor.	现在可以在一个地方管理所有 Cursor 自定义功能。
+Open Customize	打开自定义
+Privacy Mode	隐私模式
+You can also manage Privacy Mode in the Unify dashboard	你也可以在 Unify 控制台中管理隐私模式
+Your code data will not be trained on or used to improve the product. Code may be stored to provide features such as Background Agent.	你的代码数据不会用于训练或改进产品。为提供后台智能体等功能，代码可能会被存储。

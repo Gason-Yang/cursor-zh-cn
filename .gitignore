@@ -1,0 +1,22 @@
+# Never publish generated application resources, profiles or credentials.
+*.original
+*.localized
+*.log
+product.*.json
+argv*.json
+deployment-state.json
+apply-manifest.json
+patch-report.json
+missing-ui.json
+installed-before.json
+generated/
+backup/
+backups/
+dist/
+node_modules/
+*.zip
+SHA256SUMS.txt
+.env
+git.txt
+*.pem
+*.key

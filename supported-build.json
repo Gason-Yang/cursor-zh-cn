@@ -1,0 +1,22 @@
+{
+  "version": "3.29.15",
+  "platform": "win32-x64",
+  "files": [
+    {
+      "file": "out/vs/workbench/workbench.glass.main.js",
+      "originalSHA256": "d3458ff98541d792ee7cd041669f4a0bb8cd088485c63a6572c03c06f0ca910b"
+    },
+    {
+      "file": "out/vs/workbench/workbench.desktop.main.js",
+      "originalSHA256": "4d946eb3ceaac507fb22ad694e2c1b03b0d6a82cdabfa825b174aff9ac5f2857"
+    },
+    {
+      "file": "out/vs/workbench/workbench.xai-commerce-prepaid.js",
+      "originalSHA256": "723e2e9284a976e1d3b33127b094f9ca4e35485327be84cb002d38d3a0b57c05"
+    },
+    {
+      "file": "out/vs/workbench/workbench.anysphere-ui-automations.js",
+      "originalSHA256": "f7e5d1d9172a72e90b7610f49cb35b1c665c42a503459aa6407dfe7f7ccc2c47"
+    }
+  ]
+}
