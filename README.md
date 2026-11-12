@@ -1,6 +1,6 @@
 # Cursor 简体中文增强汉化 · Cursor Zh-CN
 
-[![Release](https://img.shields.io/github/v/release/GASONJC/cursor-zh-cn)](https://github.com/GASONJC/cursor-zh-cn/releases)
+[![Release](https://img.shields.io/github/v/release/Gason-Yang/cursor-zh-cn)](https://github.com/Gason-Yang/cursor-zh-cn/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 在**现有 Cursor 安装上**补充简体中文界面，无需重装、降级或下载另一份 Cursor。
@@ -43,10 +43,10 @@ cursor --install-extension polang233.cursor-language-pack
 
 ### 2. 下载本项目
 
-从 [Releases](https://github.com/GASONJC/cursor-zh-cn/releases) 下载 `cursor-zh-cn-v0.1.0-windows.zip`，解压到普通文件夹。可用同一发布中的 `SHA256SUMS.txt` 核对压缩包。
+从 [Releases](https://github.com/Gason-Yang/cursor-zh-cn/releases) 下载 `cursor-zh-cn-v0.1.1-windows.zip`，解压到普通文件夹。可用同一发布中的 `SHA256SUMS.txt` 核对压缩包。
 
 ```powershell
-Get-FileHash .\cursor-zh-cn-v0.1.0-windows.zip -Algorithm SHA256
+Get-FileHash .\cursor-zh-cn-v0.1.1-windows.zip -Algorithm SHA256
 ```
 
 ### 3. 可选：先预览，不修改安装
